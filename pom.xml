@@ -10,7 +10,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent-javalin-pom</artifactId>
-	<version>0.0.8</version>
+	<version>0.0.10</version>
 	<name>ParentJavalinPom</name>
 	<packaging>pom</packaging>
 	<url>https://github.com/UnterrainerInformatik/java-parent-javalin-pom</url>
@@ -34,7 +34,30 @@
 			<version>9.4.38.v20210224</version>
 		</dependency>
 		<!-- TEST-SCOPE ################################################# -->
-		
+
 	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>analyze</id>
+							<configuration>
+								<ignoredUnusedDeclaredDependencies
+									combine.children="append">
+									<ignoredUnusedDeclaredDependency>org.eclipse.jetty:jetty-http</ignoredUnusedDeclaredDependency>
+									<ignoredUnusedDeclaredDependency>org.eclipse.jetty:jetty-server</ignoredUnusedDeclaredDependency>
+								</ignoredUnusedDeclaredDependencies>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 
 </project>
