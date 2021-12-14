@@ -10,7 +10,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent-javalin-pom</artifactId>
-	<version>0.0.10</version>
+	<version>0.0.11</version>
 	<name>ParentJavalinPom</name>
 	<packaging>pom</packaging>
 	<url>https://github.com/UnterrainerInformatik/java-parent-javalin-pom</url>
