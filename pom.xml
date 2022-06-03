@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>info.unterrainer.commons</groupId>
 		<artifactId>parent-pom</artifactId>
-		<version>0.1.23</version>
+		<version>0.1.26</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent-javalin-pom</artifactId>
-	<version>0.0.13</version>
+	<version>0.0.14</version>
 	<name>ParentJavalinPom</name>
 	<packaging>pom</packaging>
 	<url>https://github.com/UnterrainerInformatik/java-parent-javalin-pom</url>
