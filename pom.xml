@@ -10,7 +10,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent-javalin-pom</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.2</version>
 	<name>ParentJavalinPom</name>
 	<packaging>pom</packaging>
 	<url>https://github.com/UnterrainerInformatik/java-parent-javalin-pom</url>
@@ -21,17 +21,17 @@
 		<dependency>
 			<groupId>io.javalin</groupId>
 			<artifactId>javalin</artifactId>
-			<version>6.5.0</version>
+			<version>3.13.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-http</artifactId>
-			<version>11.0.24</version>
+			<version>9.4.38.v20210224</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>11.0.24</version>
+			<version>9.4.38.v20210224</version>
 		</dependency>
 		<!-- TEST-SCOPE ################################################# -->
 
