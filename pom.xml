@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>info.unterrainer.commons</groupId>
 		<artifactId>parent-pom</artifactId>
-		<version>0.2.1</version>
+		<version>0.2.5</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent-javalin-pom</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<name>ParentJavalinPom</name>
 	<packaging>pom</packaging>
 	<url>https://github.com/UnterrainerInformatik/java-parent-javalin-pom</url>
@@ -21,17 +21,17 @@
 		<dependency>
 			<groupId>io.javalin</groupId>
 			<artifactId>javalin</artifactId>
-			<version>3.13.4</version>
+			<version>6.5.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-http</artifactId>
-			<version>9.4.38.v20210224</version>
+			<version>11.0.24</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>9.4.38.v20210224</version>
+			<version>11.0.24</version>
 		</dependency>
 		<!-- TEST-SCOPE ################################################# -->
 
@@ -43,7 +43,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-dependency-plugin</artifactId>
-					<version>3.1.2</version>
+					<version>3.8.1</version>
 					<executions>
 						<execution>
 							<id>analyze</id>
